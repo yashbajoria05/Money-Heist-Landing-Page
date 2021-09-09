@@ -34,8 +34,8 @@ body{
 }
 .bg .smallpic .smallimage{
     position: relative;
-    width: 160px;
-    margin: 0 7px;
+    width: 170px;
+    margin: 0 9px;
     border: 1px solid #fff;
     border-radius: 4px;
     transition: 0.2s;
@@ -53,7 +53,7 @@ nav{
     height: 100px;
 }
 nav .logo{
-    margin: 40px;
+    margin: 30px 40px;
 }
 nav .logo img{
     width: 70px;
@@ -63,7 +63,8 @@ nav ul{
     display: flex;
     position: absolute;
     top: 0;
-    right: 50px;    
+    right: 50px;
+    line-height: 60px; 
 }
 nav ul li{
     list-style: none;
