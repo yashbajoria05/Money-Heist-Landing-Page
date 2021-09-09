@@ -28,13 +28,13 @@ body{
 .bg .smallpic{
     position: absolute;
     left: 50%;
-    bottom: 30px;
+    bottom: 25px;
     transform: translate(-50%,0);
     display: flex;
 }
 .bg .smallpic .smallimage{
     position: relative;
-    width: 200px;
+    width: 160px;
     margin: 0 7px;
     border: 1px solid #fff;
     border-radius: 4px;
@@ -61,7 +61,7 @@ nav .logo img{
 }
 nav ul{
     display: flex;
-    position: relative;
+    position: absolute;
     top: 0;
     right: 50px;    
 }
