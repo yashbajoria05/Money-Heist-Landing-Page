@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONEY HEIST | NETFLIX</title>
+    <script src="https://kit.fontawesome.com/40361c9b31.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="money.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="smallpic">
+            <img src="Imags/bckgrnd.jpg" alt="" class="smallimage" onclick="imgSlider('Imags/bckgrnd.jpg')">
+            <img src="Imags/bckgrnd1.jpg" alt="" class="smallimage" onclick="imgSlider('Imags/bckgrnd1.jpg')"> 
+            <img src="Imags/bckgrnd2.jpg" alt="" class="smallimage" onclick="imgSlider('Imags/bckgrnd2.jpg')">
+            <img src="Imags/bckgrnd3.jpg" alt="" class="smallimage" onclick="imgSlider('Imags/bckgrnd3.jpg')">
+            <img src="Imags/bckgrnd4.jpg" alt="" class="smallimage" onclick="imgSlider('Imags/bckgrnd4.jpg')">
+            <img src="Imags/bckgrnd5.jpg" alt="" class="smallimage" onclick="imgSlider('Imags/bckgrnd5.jpg')">
+        </div>
+        <img src="Imags/bckgrnd.jpg" alt="" class="image">
+    </div>
+
+    <nav>
+        <div class="logo">
+            <img src="Imags/download.png" alt="NETFLIX">
+        </div>
+        <ul class="icons">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="section1">
+        <div class="logo1">
+            <img src="Imags/logo.jpg" alt="LA CASA DE PAPEL">
+        </div>
+        <div class="content">
+            <p>2017 | 18+ | 4 Seasons | Crime TV Show</p>
+            <p>
+                An unusual group of robbers attempt to carry out the<br>
+                most perfect robbery in Spanish history - stealing 2.4<br>
+                billion euros from the Royal Mint of Spain.
+            </p>
+        </div>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=p_PJbmrX4uk" target="_blank">Trailer</a></li>
+            <li><a href="#">Watch List</a></li>
+        </ul>
+    </section>
+
+    <section class="section2">
+            <h3><a href="#" id="active">Season 04</a></h3>
+            <h3><a href="#">Season 03</a></h3>
+            <h3><a href="#">Season 02</a></h3>
+            <h3><a href="#">Season 01</a></h3>
+    </section>
+
+    <script>
+        function imgSlider(imag){
+            document.querySelector('.image').src = imag;
+        }
+    </script>
+
+</body>
+</html>

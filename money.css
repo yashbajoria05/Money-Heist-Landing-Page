@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background: linear-gradient(90deg, rgba(0,0,0,1),rgba(0,0,0,0.99),rgba(0,0,0,0.50),rgba(0,0,0,0.4),rgba(0,0,0,0.6));
+    overflow: hidden;
+}
+.bg .image{
+    position: relative;
+    float: right;
+    height: 100vh;
+    background-size: cover;
+    background-position: end;
+    z-index: -1;
+    transition: .4s;
+}
+.bg .smallpic{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%,0);
+    display: flex;
+}
+.bg .smallpic .smallimage{
+    position: relative;
+    width: 200px;
+    margin: 0 7px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.bg .smallpic .smallimage:hover{
+    border: 2px solid #fff;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+nav .logo{
+    margin: 40px;
+}
+nav .logo img{
+    width: 70px;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    position: relative;
+    top: 0;
+    right: 50px;    
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 10px;
+}
+nav ul li a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 39px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.section1{
+    position: absolute;
+    top: 80px;
+    margin-left: 30px;
+}
+.section1 .logo1{
+    margin: 90px 25px;
+}
+.section1 .logo1 img{
+    height: 80px;
+    width: 320px;
+}
+.section1 .content{
+    margin-top: -90px;
+    margin-left: 35px;
+}
+.section1 p:nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+.section1 p:nth-child(2){
+    color: white;
+}
+.section1 ul{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 30px;
+    display: flex;
+}
+.section1 ul li{
+    list-style: none;
+}
+.section1 ul li a{
+    padding: 8px 30px;
+    margin-right: 10px;
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+.section1 ul li:nth-child(1) a{
+    background: linear-gradient(#D42A41,#7B070B);
+}
+.section1 ul li a:hover{
+    background: linear-gradient(#D42A41,#7B070B);
+}
+
+.section2{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+.section2 h3{
+    margin: 10px 0;
+}
+.section2 h3 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: 	rgb(116, 116, 116);
+    transition: 0.4s;
+}
+#active, .section2 h3 a:hover{
+    font-size: 30px;
+    color: #fff;
+}
