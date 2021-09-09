@@ -53,7 +53,7 @@ nav{
     height: 100px;
 }
 nav .logo{
-    margin: 30px 40px;
+    margin: 25px 40px;
 }
 nav .logo img{
     width: 70px;
@@ -84,7 +84,7 @@ nav ul li a{
 
 .section1{
     position: absolute;
-    top: 80px;
+    top: 90px;
     margin-left: 30px;
 }
 .section1 .logo1{
